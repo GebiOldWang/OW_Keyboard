@@ -160,6 +160,7 @@ static CGFloat const rowHeight = 40;
     }
     return button;
 }
+
 -(void)label:(UILabel *)lable setlableText:(NSString *)text color:(UIColor *)color textAligment:(NSTextAlignment) alignment
 {
     lable.text = text;
