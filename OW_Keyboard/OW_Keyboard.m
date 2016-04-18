@@ -30,7 +30,7 @@ static CGFloat const rowHeight = 40;
     return _array;
 }
 
-+(instancetype)keyboard
++(instancetype)ow_keyboard
 {
     return [[super alloc] initWithFrame:CGRectMake(0, 200, FrameW, 216)];
 }
@@ -132,7 +132,7 @@ static CGFloat const rowHeight = 40;
     
     if (num<10){
         UILabel *labelNum = [[UILabel alloc] initWithFrame:CGRectMake(0, 5, buttonW, 28)];
-        [self label:labelNum setlableText:[NSString stringWithFormat:@"%ld",num] color:DefulatColor textAligment:1];
+        [self label:labelNum setlableText:[NSString stringWithFormat:@"%zd",num] color:DefulatColor textAligment:1];
         labelNum.font = NumFont;
         [button addSubview:labelNum];
         

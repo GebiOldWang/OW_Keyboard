@@ -23,7 +23,7 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     //  自定义键盘
-    OW_Keyboard *keyboard = [OW_Keyboard keyboard];
+    OW_Keyboard *keyboard = [OW_Keyboard ow_keyboard];
     text.inputView = keyboard;
     
     keyboard.numberKeyboardDian = ^(NSString * String){

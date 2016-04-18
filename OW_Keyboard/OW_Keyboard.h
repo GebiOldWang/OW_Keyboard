@@ -28,6 +28,6 @@
 /**
  *   初始化方法
  */
-+(instancetype)keyboard;
++(instancetype)ow_keyboard;
 
 @end
